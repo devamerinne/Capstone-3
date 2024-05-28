@@ -1,17 +1,17 @@
-#**1. Business Problem Understanding**
-##**1.1 Context**
+**1. Business Problem Understanding**
+**1.1 Context**
 
 Shopaku merupakan sebuah perusahaan yang mempunyai platform e-commerce di mana anda bisa berbelanja berbagai merek yang sudah anda kenal, sekaligus menemukan toko dan penjual  perusahaan secara online terutama untuk produk gadget yaitu laptop dan mobile phone. Dalam dunia e-commerce, keloyalan pelanggan adalah kunci keberhasilan jangka panjang. Salah satu tantangan utama yang dihadapi oleh perusahaan e-commerce adalah churn pelanggan, yaitu pelanggan yang berhenti menggunakan aplikasi dalam periode tertentu. Memahami dan mengelola churn pelanggan sangat penting salah satunya untuk mengoptimalkan strategi pemasaran.
 
 Dengan menganalisis data churn, perusahaan e-commerce dapat mengidentifikasi faktor-faktor yang berkontribusi terhadap churn dan mengembangkan strategi untuk meningkatkan retensi pelanggan. Misalnya, perusahaan dapat menawarkan promosi atau insentif kepada pelanggan dengan skor kepuasan rendah atau mengoptimalkan proses pengiriman untuk mengurangi waktu pengiriman bagi pelanggan yang tinggal jauh dari gudang. Analisis churn membantu dalam mengarahkan upaya pemasaran yang lebih efektif dan meningkatkan pengalaman pelanggan secara keseluruhan.
 
-##**1.2 Probelm Statement**
+**1.2 Probelm Statement**
 
 Saat perusahaan berusaha untuk membuat seseorang menjadi pelanggan di perusahaan tersebut, perusahaan pasti sudah mengeluarkan banyak strategi, tenaga, dan waktu untuk mendapatkannya. Hal ini tentu akan sangat disayangkan jika pelanggan tersebut lepas begitu saja.
 
 Oleh sebab itu, sangat penting bagi perusahaan untuk memastikan growth rate perusahaan terus meningkat dan menjaga agar churn rate dapat menurun. Salah satu langkah yang dapat diambil untuk menjaga churn rate dapat menurun adalah dengan memprediksi target pelanggan yang tepat agar dapat disesuaikan metode yang akan diambil guna mencegah churn.
 
-##**1.3 Goals :**
+**1.3 Goals :**
 
 Berdasarkan permasalahan tersebut, perusahaan ingin dapat memprediksi peluang pelanggan  yang akan churn atau tidak, sehingga dapat melakukan tindakan pencegahan yang diperlukan. Karena jika perusahaan berfokus pada semua pelanggan, biaya yang dikeluarkan tentu tikdaklah murah. Dan jika perusahaan ingin fokus untuk mendapatkan pelanggan baru tentu akan sulit dan memakan biaya iklan yang lebih mahal.
 
@@ -116,9 +116,20 @@ Berdasarkan Feature Importance dan Summary Plot, 3 Faktor utama yang mempengaruh
 
 2. ***Prefered Order Cat***, terutama pada pembelian kategori barang yang memiliki durasi pakai panjang seperti laptop dan ponsel.
 
-2. ***Complain***, semakin besar nilai Complain semakin besar kemungkinan Customer akan Churn dan sebaliknya. nilai yang besar artinya customer melakukan complain atau customer tidak puas terhadap layanan.
+3. ***Complain***, semakin besar nilai Complain semakin besar kemungkinan Customer akan Churn dan sebaliknya. nilai yang besar artinya customer melakukan complain atau customer tidak puas terhadap layanan.
 
-3. For Model:
+**Recommendation**
+***For Business***
+
+Customer yang melakukan churn dapat menimbulkan kerugian bagi perusahaan.
+
+perusahaan e-commerce perlu menyusun strategi agar dapat tetap menjaga kualitas produk dan pelayanan agar dapat menghindari complain yang masuk.
+perusahaan e-commerce perlu menyusun strategi agar dapat menciptakan loyalitas pelanggan, baik dengan melakukan inovasi pada produk yang dipasarkan dan memberikan penawaran yang menarik, sehingga tenure customer semakin tinggi.
+Perusahaan perlu menggunakan machine learning yang sudah dibuat, agar dapat mengurangi kerugian bagi perusahaan dengan memberikan promosi tepat sasaran kepada customer yang akan melakukan churn.
+Untuk prediksi customer selanjutnya dapat menggunakan WebApp yang sudah disediakan, guna memudahkan perusahaan dan dapat mendeteksi sedini mungkin kemungkinan customer churn.
+
+
+***For Model***
 
 Akurasi model machine learning yang dibuat terbatas sehingga diperlukan
 
