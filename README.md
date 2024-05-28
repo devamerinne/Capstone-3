@@ -140,4 +140,5 @@ Akurasi model machine learning yang dibuat terbatas sehingga diperlukan
 - Menambahkan fitur2 atau kolom2 baru yang kemungkinan bisa berhubungan seperti lama pengiriman produk, ketepatan waktu pengiriman, dan lain-lain.
 - Meminimalisir kesalahan penulisan data dan memastikan data yang diperoleh tidak ada yang kosong atau tidak terisi
 
+Berikut adalah video penjelasan [disini](https://youtu.be/ku4YDWfWIG8)
 Semoga laporan ini dapat membantu perusahaan untuk menprediksi customer yang akan churn sehingga dapat mengurangi profit loss. Terima kasih.
