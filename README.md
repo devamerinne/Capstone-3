@@ -1,4 +1,5 @@
 **1. Business Problem Understanding**
+
 **1.1 Context**
 
 Shopaku merupakan sebuah perusahaan yang mempunyai platform e-commerce di mana anda bisa berbelanja berbagai merek yang sudah anda kenal, sekaligus menemukan toko dan penjual  perusahaan secara online terutama untuk produk gadget yaitu laptop dan mobile phone. Dalam dunia e-commerce, keloyalan pelanggan adalah kunci keberhasilan jangka panjang. Salah satu tantangan utama yang dihadapi oleh perusahaan e-commerce adalah churn pelanggan, yaitu pelanggan yang berhenti menggunakan aplikasi dalam periode tertentu. Memahami dan mengelola churn pelanggan sangat penting salah satunya untuk mengoptimalkan strategi pemasaran.
@@ -52,6 +53,8 @@ Berdasarkan interpretasi diatas, diketahui ada 2 Error yang akan terjadi, yang d
     Konsekuensi: Perusahaan mungkin kehilangan pelanggan tanpa melakukan tindakan pencegahan yang diperlukan.
 
 Berikut adalah confusion matrix dari Ecommerce Churn yang telah dijabarjkan
+![image](https://github.com/devamerinne/Capstone-3/assets/124213904/318376d0-8f22-42f6-8a0e-96d8f27ee208)
+
 
 Pada analisis ini akan dititikberatkan pada perhitungan **recall** karena kami ingin melihat berapa persen pelanggan yang diprediksi churn dibandingkan dengan keseluruhan pelanggan yang benar-benar churn. Kami juga menganggap bahwa False Positif lebih baik daripada False Negatif. Yang artinya kami lebih memilih mentreatment orang-orang yang diprediksi churn padahal tidak churn daripada membiarkan orang-orang yang diprediksi tidak churn padahal aktualnya churn. [disni](https://rey1024.medium.com/mengenal-accuracy-precission-recall-dan-specificity-serta-yang-diprioritaskan-b79ff4d77de8)
 
