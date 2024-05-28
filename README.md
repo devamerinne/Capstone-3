@@ -1,24 +1,24 @@
-**1. Business Problem Understanding**
+**Business Problem Understanding**
 
-**1.1 Context**
+**Context**
 
 Shopaku merupakan sebuah perusahaan yang mempunyai platform e-commerce di mana anda bisa berbelanja berbagai merek yang sudah anda kenal, sekaligus menemukan toko dan penjual  perusahaan secara online terutama untuk produk gadget yaitu laptop dan mobile phone. Dalam dunia e-commerce, keloyalan pelanggan adalah kunci keberhasilan jangka panjang. Salah satu tantangan utama yang dihadapi oleh perusahaan e-commerce adalah churn pelanggan, yaitu pelanggan yang berhenti menggunakan aplikasi dalam periode tertentu. Memahami dan mengelola churn pelanggan sangat penting salah satunya untuk mengoptimalkan strategi pemasaran.
 
 Dengan menganalisis data churn, perusahaan e-commerce dapat mengidentifikasi faktor-faktor yang berkontribusi terhadap churn dan mengembangkan strategi untuk meningkatkan retensi pelanggan. Misalnya, perusahaan dapat menawarkan promosi atau insentif kepada pelanggan dengan skor kepuasan rendah atau mengoptimalkan proses pengiriman untuk mengurangi waktu pengiriman bagi pelanggan yang tinggal jauh dari gudang. Analisis churn membantu dalam mengarahkan upaya pemasaran yang lebih efektif dan meningkatkan pengalaman pelanggan secara keseluruhan.
 
-**1.2 Probelm Statement**
+**Probelm Statement**
 
 Saat perusahaan berusaha untuk membuat seseorang menjadi pelanggan di perusahaan tersebut, perusahaan pasti sudah mengeluarkan banyak strategi, tenaga, dan waktu untuk mendapatkannya. Hal ini tentu akan sangat disayangkan jika pelanggan tersebut lepas begitu saja.
 
 Oleh sebab itu, sangat penting bagi perusahaan untuk memastikan growth rate perusahaan terus meningkat dan menjaga agar churn rate dapat menurun. Salah satu langkah yang dapat diambil untuk menjaga churn rate dapat menurun adalah dengan memprediksi target pelanggan yang tepat agar dapat disesuaikan metode yang akan diambil guna mencegah churn.
 
-**1.3 Goals :**
+**Goals**
 
 Berdasarkan permasalahan tersebut, perusahaan ingin dapat memprediksi peluang pelanggan  yang akan churn atau tidak, sehingga dapat melakukan tindakan pencegahan yang diperlukan. Karena jika perusahaan berfokus pada semua pelanggan, biaya yang dikeluarkan tentu tikdaklah murah. Dan jika perusahaan ingin fokus untuk mendapatkan pelanggan baru tentu akan sulit dan memakan biaya iklan yang lebih mahal.
 
 Dan juga, perusahaan ingin mengetahui apa faktor yang membuat pelanggan churn dan tidak, sehingga dapat memberikan insentif atau promosi khusus untuk mempertahankan pelanggan yang memiliki kecenderungan akan berhenti dan me-maintaince pelanggan yang masih akan tetap tidak churn.
 
-##**1.4 Analytic Approach**
+**Analytic Approach**
 
 Jadi yang akan dilakukan adalah menganalisis data untuk menemukan pola yang membedakan pelanggan yang churn dan tidak. Kemudian akan dilanjutkan dengan membangun model klasifikasi yang akan membantu perusahaan untuk dapat memprediksi probabilitas seorang pelanggan akan churn atau tidak.
 
